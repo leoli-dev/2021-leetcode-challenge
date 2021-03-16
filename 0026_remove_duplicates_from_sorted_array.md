@@ -1,6 +1,4 @@
-# First week (2021/02/14 - 2021/02/20)
-
-## 26. Remove Duplicates from Sorted Array (2021/02/14)
+# 26. Remove Duplicates from Sorted Array
 
 - URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 - Description:
@@ -11,7 +9,7 @@
 - Tags: `Array`, `Two Pointers`
 - Difficulty: __Easy__
 
-### First try
+## First try
 
 ```php
 class Solution {
@@ -30,7 +28,7 @@ Problem:
 - It's too slow and it took too much memory.
 -  `array_unique()` will return a new array instead of modifying the original one, it doesn't meat the requirement.
 
-### Final submit
+## Final submit
 
 ```php
 class Solution {
